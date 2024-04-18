@@ -1,0 +1,160 @@
+.header-links {
+  display: flex;
+  list-style: none;
+  font-size: 16px;
+  color: rgb(85, 85, 85);
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  font-size: 16px;
+  margin-left: 40px;
+  text-decoration: none;
+  text-wrap: nowrap;
+  color: rgb(85, 85, 85);
+}
+
+.footer-link,
+.nav-links:hover {
+  color: rgb(45, 184, 76);
+}
+.flag-img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+#navbarSupportedContent {
+  justify-content: end;
+}
+.custom-navbar {
+  height: 80px;
+}
+.navbar-toggler {
+  border: 0;
+}
+
+.download-btn,
+.main-text,
+.main-text-2 {
+  justify-content: center;
+}
+
+.light-text {
+  font-family: "IBM Plex Sans";
+  font-weight: 300;
+  font-size: 3rem;
+  color: rgb(85, 85, 85);
+}
+
+.main-text {
+  font-family: "IBM Plex Sans";
+  font-size: 3rem;
+  color: rgb(45, 184, 76);
+}
+
+.download-buttom {
+  justify-self: center;
+  color: white;
+  background-color: rgb(45, 184, 76);
+  border: 1px;
+  border-radius: 8px;
+  font-family: "inter";
+  font-weight: 700;
+  padding: 14px 40px 14px 40px;
+  width: 196px;
+  text-wrap: nowrap;
+  margin: 60px;
+}
+
+.custom-img {
+  width: 56px;
+  height: 56px;
+}
+
+.custom-card-highlights {
+  background-color: rgb(240, 253, 248);
+}
+.custom-container {
+  padding-bottom: 1rem;
+}
+.main-card-heading {
+  font-size: 3rem;
+  font-family: "inter";
+}
+.card {
+  border: none;
+}
+.app-sc {
+  box-shadow: 1px 1px 15px rgb(230, 229, 229);
+  border-radius: 14px;
+}
+
+.fc-image {
+  width: 56px;
+  height: 56px;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+}
+.row1 {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .big-card-row {
+    flex-direction: column-reverse;
+  }
+}
+
+#font-inter {
+  font-family: "inter";
+}
+.custom-border-color {
+  border: 1px solid rgb(242, 241, 241);
+}
+
+.cstm-download-green-box {
+  background-color: rgb(45, 184, 76);
+  font-family: "inter";
+  border-radius: 16px;
+}
+.phone-sc {
+  width: 214px;
+  height: 280px;
+  margin-bottom: -48px;
+}
+
+.footer-link{
+    text-decoration: none;
+    text-wrap: nowrap;
+    color: rgb(85, 85, 85);
+}
+
+.support-button{
+    display: flex;
+    background-color: rgb(45, 184, 76);
+    padding: 12px 23px 12px 23px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    letter-spacing: 1px;
+    
+}
+#support-icon{
+    border: 2px solid white;
+    border-radius: 16px;
+    padding: 3px 5px 3px 5px;
+    font-size: 12px;
+}
